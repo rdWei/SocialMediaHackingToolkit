@@ -32,11 +32,11 @@ select_an_option()
 print("["+color.GREEN+"1"+color.END+"] "+color.YELLOW+"Instagram\n"+color.END+"["+color.GREEN+"2"+color.END+"] "+color.BLUE+"Facebook"+"\n"+color.END+"["+color.GREEN+"3"+color.END+"] "+color.RED+"Gmail"+color.END+"\n"+color.END+"["+color.GREEN+"4"+color.END+"] "+color.CYAN+"Twitter"+color.END)
 option = input("\n> ")
 if option == "1":
-    option_name = "instagram"
+    option_name = "instagram"Esho.gold001
 elif option == "2":
-    option_name = "facebook"
+    option_name = "facebook"Bergin boulton
 elif option == "3":
-    option_name = "gmail"
+    option_name = "gmail"Eshogbenga001@gmail.com
 elif option == "4":
     option_name = "twitter"
 option_list.append(option_name)
