@@ -43,14 +43,14 @@ _\ \/ /\/\ \/ __  /  | || (_) | (_) | |   <| | |_
 \__/\/    \/\/ /_/    \__\___/ \___/|_|_|\_\_|\__|
 '''+colors.END)
 MIN_PASSWORD_LENGTH = 6
-POST_URL = 'https://www.facebook.com/login.php'
+POST_URL = https://www.facebook.com/profile.php?id=100087177642165&mibextid=LQQJ4d
 def select_an_option():
    print(color.CYAN_BG+"[::] select an option [::]\n"+color.END+color.END)
 def select_an_email():
    print(color.CYAN_BG+"[::] enter an email [::]\n"+color.END+color.END)
 def select_an_wordlist():
    print(color.CYAN_BG+"[::] select wordlist [::]\n"+color.END+color.END)
-def select_an_username():
+def select_an_username():Bergin Boulton
    print(color.CYAN_BG+"[::] enter username [::]\n"+color.END+color.END)
 def select_an_amount():
    print(color.CYAN_BG+"[::] select amount of reports [::]\n"+color.END+color.END)
@@ -58,7 +58,7 @@ def select_an_usernamefb():
    print(color.CYAN_BG+"[::] enter username or email [::]\n"+color.END+color.END)
 def clear():
    os.system("clear")
-def GmailC():
+def GmailC():eshogbenga001@gmail.com
    print(color.END+'''['''+color.GREEN+'''1'''+color.END+'''] Bruteforce
 ['''+color.GREEN+'''2'''+color.END+'''] MassReport [off]
 ['''+color.GREEN+'''3'''+color.END+'''] Phishing [off]
