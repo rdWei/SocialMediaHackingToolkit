@@ -32,7 +32,7 @@ if choice == 1:
 elif choice == 2:
 	choice = start_instagram()
 	if choice == 1:
-		username = get_facebook()()
+		username = get_facebook()
 		wordlist = get_wordlist()
 		facebook_bruteforce(username, wordlist, vpn)
 	if choice == 2:
