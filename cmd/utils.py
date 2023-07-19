@@ -104,6 +104,7 @@ def get_facebook():
   console.print(ascii_art, justify="center", style="#B0DAFF bold")
   console.print(":: username ::", justify="center", style="#B0DAFF")
   uname = input("\n\n"+color.GREEN+" [choice]"+color.END+" 〉")
+  return uname
 def get_email():
   os.system("clear")
   console.print(ascii_art, justify="center", style="#B0DAFF bold")
