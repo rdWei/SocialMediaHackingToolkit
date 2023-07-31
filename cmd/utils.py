@@ -8,8 +8,14 @@ from asciiart import ascii_art
 from bs4 import BeautifulSoup
 import instaloader
 import smtplib
+import chardet
 
 os.system("clear")
+
+def detect_file_encoding(file_path):
+    with open(file_path, 'rb') as f:
+        result = chardet.detect(f.read())
+        return result['encoding'] # returns encoding to be used
 
 class color:
    PURPLE = '\033[95m'
@@ -128,13 +134,20 @@ def insta_bruteforce(username, wordlist, vpn):
   spam_bool = 1
   c_spam = 0
 
+  wordlist_path = "wordlist/"+wordlist
+  file_encoding = detect_file_encoding(wordlist_path)
+
   try:
-      wl_file = open("wordlist/"+wordlist, 'r')
+      wl_file = open(wordlist_path, 'r', encoding=file_encoding) # fixed encoding issue
       wl_lines = [line.strip() for line in wl_file.readlines()]  # Rimuovi i caratteri di nuova riga
       count = 0
   except FileNotFoundError:
       print("\n\nEERROR 1x01:"+color.RED+" wordlist not found, please insert your wordlist into the 'wordlist' folder.\n\n"+color.END)
-      exit()  
+      exit()
+
+  # Handle the error
+  except UnicodeDecodeError as e:
+    print(f"Error decoding the file: {e}")  
 
   rs = requests.session()
   for line in wl_lines:
