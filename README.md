@@ -67,7 +67,7 @@ git clone https://github.com/RedKatz/SocialMediaHackingToolkit
 
 cd SocialMediaHackingToolkit
 
-cd Dipendencies
+cd dependencies
 
 sudo dpkg -i windscribe-cli.deb
 
