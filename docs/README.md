@@ -1,14 +1,6 @@
-### ARCHIVED → Repo not maintained since 2020
-
----
-
-This repository is no longer maintained. The last update was in 2020, and there are no plans for future updates or support. The content here is provided "as-is" without any guarantees. 
-
 For any questions, please join the [discord server](https://discord.com/invite/3r6mkjv6AP) or contact [rdWei](https://www.instagram.com/rdWe_i/).
 
 _I'll only respond to those proposals that are a good match for my schedule and interests, thank you._
-
-[support me](https://www.github.com/rdWei)
 
 ---
 
