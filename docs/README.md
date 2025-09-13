@@ -5,15 +5,8 @@ _I'll only respond to those proposals that are a good match for my schedule and 
 ---
 
 <div align="center">
-  <pre style="display: inline-block; border: 1px solid; padding: 10px;">
- ________  ___ _   _ 
-/  ___|  \/  || | | |
-\ `--.| .  . || |_| |
- `--. \ |\/| ||  _  |
-/\__/ / |  | || | | |
-\____/\_|  |_/\_| |_/
-   
-Social Media Hacking Toolkit
+    <img src="images/logo.jpeg">
+    <small>Social Media Hacking Toolkit</small>
   </pre>
 </div>
 
