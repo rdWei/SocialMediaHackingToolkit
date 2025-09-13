@@ -6,6 +6,7 @@ _I'll only respond to those proposals that are a good match for my schedule and 
 
 <div align="center">
     <img src="images/logo.png">
+    <br>
     <small>Social Media Hacking Toolkit</small>
   </pre>
 </div>
