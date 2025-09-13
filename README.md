@@ -105,7 +105,7 @@ git clone https://github.com/rdWei/SocialMediaHackingToolkit
 
 cd SocialMediaHackingToolkit
 
-yay install windscribe-cli
+yay install windscribe-v2-bin
 
 systemctl start windscribe-cli
 
